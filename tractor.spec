@@ -35,7 +35,7 @@ The goal is to ease the proccess of connecting to TOR and prevent messing up wit
 %install
 %py_install
 
-install -Dm 0644 src/tractor/tractor.gschema.xml %{buildroot}%{_datadir}/glib-2.0/schemas
+install -Dm 0644 src/tractor/tractor.gschema.xml %{buildroot}%{_datadir}/glib-2.0/schemas/tractor.gschema.xml
 
 %post
 glib-compile-schemas %{_datadir}/glib-2.0/schemas/ || :
