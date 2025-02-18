@@ -26,3 +26,6 @@ Tractor is core app which lets user to setup a proxy with Onion Routing via TOR 
 The goal is to ease the proccess of connecting to TOR and prevent messing up with system files.
 
 %files
+%{_bindir}/tractor
+%{python_sitelib}/tractor/
+%{python_sitelib}/traxtor-%{version}.dist-info
