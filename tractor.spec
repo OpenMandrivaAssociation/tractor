@@ -27,7 +27,7 @@ Tractor is core app which lets user to setup a proxy with Onion Routing via TOR 
 The goal is to ease the proccess of connecting to TOR and prevent messing up with system files.
 
 %prep
-%autoseup -p1 %{name}-%{version} -p1
+%autosetup -p1 %{name}-%{version} -p1
 
 %build
 %py_build
