@@ -45,5 +45,6 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas/ || :
 
 %files
 %{_bindir}/tractor
+%{_datadir}/glib-2.0/schemas/tractor.gschema.xml
 %{python_sitelib}/tractor/
 %{python_sitelib}/traxtor-%{version}.dist-info
