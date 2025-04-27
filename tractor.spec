@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 Name:           tractor 
-Version:        5.0.0
-Release:        2
+Version:        5.1.0
+Release:        1
 Summary:        Setup an onion routing proxy
 
 License:        GPL-3.0-or-later
