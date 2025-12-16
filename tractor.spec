@@ -11,6 +11,7 @@ Source0:        https://framagit.org/tractor/tractor/-/archive/%{version}/tracto
 BuildRequires:  gsettings-desktop-schemas
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
+BuildRequires:  python%{pyver}dist(pip)
 
 Requires:  python-gobject3
 Requires:  python-gi
